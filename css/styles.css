@@ -571,21 +571,24 @@ height: 80px;
 }
 .footer-menu {
 
+}
 
-}
 .subscribe-position {
-color: var(--white, #FFF);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-margin-bottom: 16px;
-}
-.footer-form {
-gap: 8px;
-display: flex;
-align-items: center;
-}
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;  
+  width: 453px;
+  height: 80px;
+  }
+  .footer-form {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  }
+
 .footer-form-input {
 color: var(--white, #FFF);
 letter-spacing: 0.04em;
@@ -597,13 +600,14 @@ height: 40px;
 border-radius: 4px;
 opacity: 0.3;
 
+
 }
-.footer-form-input:focus {
- border-color: #404bbf;
+.footer-form-input:placeholder-shown {
+  border-color: #404bbf;
 }
 
-.footer-btn-accent {
-color: var(--white, #FFF);
+.btn-accent {
+color: #FFFFFF;
 text-align: center;
 font-size: 16px;
 font-weight: 500; 
@@ -614,10 +618,10 @@ justify-content: center;
 align-items: center;
 gap: 16px;
 border-radius: 4px;
-background: var(--iris, #4D5AE5);
+background-color: #404bbf;
 }
 .footer-btn-icon {
-  color: #FFFFFF;
+  fill: #FFFFFF;
 }
 
 /* Modal window  */
