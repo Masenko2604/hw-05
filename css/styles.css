@@ -515,8 +515,7 @@ button {
   gap: 24px;  
   align-items: center;
   justify-content: center;
-  margin-bottom: 132px; 
- 
+  margin-bottom: 132px;  
                         
 }
 .footer-social-text {
@@ -524,10 +523,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
-  padding: 16px;
-  margin-bottom: 16px;  
-  
+  color: #ffffff;  
+  margin-bottom: 16px;   
 }
 .footer-list {
   display: flex;
@@ -560,16 +557,68 @@ button {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
 background-color: #31d0aa;
-
 }
-
 .footer-icon-soc {
  gap: 16px;
  color: rgba(244, 244, 253, 1);
  fill:  #f4f4fd; 
 }
  
+/* Footer form */
+.footer-subscribe {
+width: 453px;
+height: 80px;
+}
+.footer-menu {
 
+
+}
+.subscribe-position {
+color: var(--white, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+}
+.footer-form {
+gap: 8px;
+display: flex;
+align-items: center;
+}
+.footer-form-input {
+color: var(--white, #FFF);
+letter-spacing: 0.04em;
+border-radius: 4px;
+border: 1px solid var(--white, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 264px;
+height: 40px;
+border-radius: 4px;
+opacity: 0.3;
+
+}
+.footer-form-input:focus {
+ border-color: #404bbf;
+}
+
+.footer-btn-accent {
+color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-weight: 500; 
+letter-spacing: 0.04em;
+display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background: var(--iris, #4D5AE5);
+}
+.footer-btn-icon {
+  color: #FFFFFF;
+}
 
 /* Modal window  */
 .backrop {
