@@ -585,7 +585,7 @@ height: 80px;
   
   }
   .footer-form {
-  gap: 8px;
+  gap 24px
   display: flex;
   align-items: center;
   }
@@ -594,14 +594,17 @@ height: 80px;
 color: var(--white, #FFF);
 letter-spacing: 0.04em;
 border-radius: 4px;
-border: 1px solid var(--white, #FFF);
+border: 1px solid #ffffff;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 width: 264px;
 height: 40px;
-border-radius: 4px;
 opacity: 0.3;
-
-
+background-color: transparent; 
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em; 
+ padding-left: 16px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .footer-form-input:placeholder-shown {
   border-color: #404bbf;
