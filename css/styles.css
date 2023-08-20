@@ -568,8 +568,8 @@ background-color: #31d0aa;
 .footer-subscribe {
 width: 453px;
 height: 80px;
-}
-.footer-menu {
+margin-top: 100px;
+margin-right: 348px;
 
 }
 
@@ -606,9 +606,7 @@ padding-left: 16px;
 border: 1px solid #ffffff;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.footer-form-input:placeholder-shown {
-  border-color: #404bbf;
-}
+
 
 .btn-accent {
 color: #FFFFFF;
@@ -622,18 +620,19 @@ justify-content: center;
 align-items: center;
 gap: 16px;
 border-radius: 4px;
-background-color: #404bbf;
 min-width: 165px;
 height: 40px;
 border: none; 
-margin-left: 16px; 
-
+margin: 8px 24px;
+line-height: 1.5;
+background-color: #4D5AE5;
 }
+
 .footer-btn-icon {
   fill: #FFFFFF;
   line-height: 1.5;
   background-color: #4D5AE5;
-  
+  margin-left: 16px;  
 }
 
 /* Modal window  */
