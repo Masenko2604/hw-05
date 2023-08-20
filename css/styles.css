@@ -569,7 +569,7 @@ background-color: #31d0aa;
 width: 453px;
 height: 80px;
 margin-top: 100px;
-margin-right: 348px;
+margin-right: 159px;
 
 }
 
@@ -591,7 +591,6 @@ margin-right: 348px;
   }
 
 .footer-form-input {
-color: var(--white, #FFF);
 letter-spacing: 0.04em;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -604,9 +603,15 @@ line-height: 1.5;
 letter-spacing: 0.04em; 
 padding-left: 16px; 
 border: 1px solid #ffffff;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
 
+}
+.footer-form-input::placeholder {  
+color: var(--white, #FFF);
+font-size: 12px;
+font-weight: 400;
+line-height: 2; 
+letter-spacing: 0.04em; 
+}
 
 .btn-accent {
 color: #FFFFFF;
