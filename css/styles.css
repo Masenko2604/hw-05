@@ -591,6 +591,7 @@ margin-right: 159px;
   }
 
 .footer-form-input {
+color: #ffffff;
 letter-spacing: 0.04em;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -603,9 +604,10 @@ line-height: 1.5;
 padding-left: 16px; 
 border: 1px solid #ffffff;
 
+
 }
 .footer-form-input::placeholder {  
-color: var(--white, #FFF);
+color: #ffffff; 
 font-size: 12px;
 font-weight: 400;
 line-height: 2; 
