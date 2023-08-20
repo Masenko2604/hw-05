@@ -566,9 +566,6 @@ background-color: #31d0aa;
  
 /* Footer form */
 .footer-subscribe {
-width: 453px;
-height: 80px;
-margin-top: 100px;
 margin-right: 159px;
 
 }
@@ -578,13 +575,14 @@ margin-right: 159px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; 
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;  
+  letter-spacing: 0.02em;    
   width: 453px;
   height: 80px;
+  display: inline-block;
   
   }
   .footer-form {
+  margin-top: 16px;
   gap: 24px;
   display: flex;
   align-items: center;
