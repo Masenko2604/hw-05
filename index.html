@@ -558,21 +558,32 @@
 
           <!-- Comment -->
 
-          <div class="window-form">
+          <div class="window-form-coment">
             <label for="user-comment" class="modal-form-agrement"
-              >Comment</label
-            >
+              >Comment</label>
             <textarea
               class="coment-textarea"
               id="user-comment"
               name="user-comment"
               placeholder="Text input">
             </textarea>
-             <input class="checkbox" type="checkbox" name="form-agrement" />
-            <span class="modal-form-desc">I accept the terms and conditions of the Privacy Policy
-              <a href="" target="_blank" rel="noopenor noreferrer">Privacy Policy</a>
+            <div class="container-checkbox-lable"></div>
+             <input
+              class="modal-checkbox-input visually-hidden"
+              name="user-privacy"
+              type="checkbox"
+              id="user-privacy" value="true"/>
+               <label  for="user-privacy" class="modal-lable"
+              > I accept the terms and conditions of the
+              <span class="modal-form-desc">I accept the terms and conditions of the Privacy Policy
+                <svg class="modal-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-modalclick"></use>
+                </svg>
+              <a class="modal-privacy-policy" href="" target="_blank" rel="noopenor noreferrer">Privacy Policy</a>
             </span>
             <button  class="btn btn-modal-submit" type="submit">Send</button>
+            </label>
+            
 
           </div>                 
            
