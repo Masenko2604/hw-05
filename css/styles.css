@@ -764,6 +764,14 @@ background-color: #4D5AE5;
 .window-form-coment {
   margin-bottom: 16px;
 }
+.modal-agrement {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px; 
+}
 .coment-textarea {  
   flex-shrink: 0;
   width: 100%;
@@ -784,7 +792,7 @@ background-color: #4D5AE5;
 .coment-textarea:focus {
   border-color: #4D5AE5;
 }
-.container-checkbox-lable {
+.checkbox-container-lable {
   margin-bottom: 24px;
 }
 .modal-checkbox-input {
@@ -816,11 +824,11 @@ color: #8e8f99;
  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  fill:  #F4F4FD;
 }
-.modal-privacy-policy {
+.modal-link-policy {
   color: #4d5ae5;
 }
  
-.btn-modal-submit {
+.button-modal-btn {
   font-family: "Roboto", sans-serif;
   padding: 16px 32px;
   min-width: 169px;
