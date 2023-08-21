@@ -788,12 +788,13 @@ background-color: #4D5AE5;
 .checkbox-container-lable {
   margin-bottom: 24px;
 }
+
 .modal-checkbox-input {
 
 }
-.modal-checkbox-input:checked {
-
-}
+.modal-checkbox-input:checked + lable > span {
+  
+} 
 .modal-lable {
 display: block;
 font-size: 12px;
