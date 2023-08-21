@@ -790,11 +790,11 @@ background-color: #4D5AE5;
 }
 
 .modal-checkbox-input {
- border: none;
-  fill: #F4F4FD;
+ 
 }
 .modal-checkbox-input:checked + lable > span {
-  
+ border: none;
+ fill: #F4F4FD;
 } 
 .modal-lable {
 display: block;
@@ -805,7 +805,7 @@ color: #8e8f99;
 }
 .modal-form-desc {
  fill: transparent; 
- border: none; 
+ border: none;
  background-color: #404bbf;    
  justify-content: center; 
  align-items: center; 
