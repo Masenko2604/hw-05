@@ -336,11 +336,10 @@ button {
 
 .team {
   padding: 120px 0;  
-  max-width: 1440px;
   margin: auto;
 }
 .team-card-container {
-  padding: 32px 0;;
+
 }
 
 .team-title-list {
@@ -370,9 +369,7 @@ button {
   height: auto;
 }
 .team-card-name {
-  padding: 32px 0;
-  width: 232px;
-  height: 56px;
+  padding: 32px 0;  
 }
 
 .team-list-position {
@@ -475,10 +472,10 @@ button {
   padding: 100px 0;
 }
 .footer-content {  
-  align-items: baseline;
-  margin-right: 120px;
-  display: flex;
+  align-items: baseline;  
+  display: flex;  
  }
+
  .footer-logo-text {
   margin-right: 120px;
  }
@@ -506,23 +503,20 @@ button {
 }
 
 .footer-page-text {
-  color: var(--cloud, #f4f4fd);
-  font-family: 'Roboto', sans-serif;
+  color: var(--cloud, #f4f4fd);  
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   border: none;
-  max-width: 264px;
+  
   margin-bottom: 16px;
+  width: 264px;
 }
 .footer-social {  
   gap: 24px;  
   align-items: center;
-  justify-content: center;
-  margin-bottom: 132px;
-   
-                        
+  justify-content: center;                        
 }
 .footer-social-text {
   font-weight: 500;
@@ -531,7 +525,6 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;  
   margin-bottom: 16px;
-  padding-left: 40px; 
     
 }
 .footer-list {
@@ -575,10 +568,8 @@ background-color: #31d0aa;
  
 /* Footer form */
 .footer-subscribe {
-margin-right: 159px;
 justify-content: center;
-margin-left: 80px;
- 
+align-items: center; 
 }
 
 .subscribe-position {
@@ -586,10 +577,7 @@ margin-left: 80px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; 
-  letter-spacing: 0.02em;    
-  width: 453px;
-  height: 80px;
-  display: inline-block;
+  letter-spacing: 0.02em;  
   margin-bottom: 16px;
   
   }
