@@ -775,7 +775,10 @@ background-color: #4D5AE5;
 .checkbox-container-lable {
   margin-bottom: 24px;
 }
-.checkbox {
+.checkbox +label > span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;;
 }
 .modal-form-desc {
   color:  #8e8f99;;
