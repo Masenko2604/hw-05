@@ -338,6 +338,10 @@ button {
   padding: 120px 0;  
   margin: auto;
 }
+.team-card-container {
+
+}
+
 .team-title-list {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -771,9 +775,9 @@ background-color: #4D5AE5;
 .checkbox-container-lable {
   margin-bottom: 24px;
 }
-.checkbox +label > span { 
+.checkbox + label > span { 
   border: none;
-  fill: #F4F4FD;
+  fill: #F4F4FD;;
 }
 .modal-form-desc {
   color:  #8e8f99;;
